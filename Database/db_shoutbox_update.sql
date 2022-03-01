@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 01, 2022 at 08:20 AM
+-- Generation Time: Mar 01, 2022 at 07:10 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.3.33
 
@@ -43,7 +43,10 @@ INSERT INTO `tbl_box` (`id`, `name`, `body`, `time`) VALUES
 (2, 'rofik', 'ok', '00:00:05'),
 (3, 'Mannan', 'where r u now', '00:00:05'),
 (4, 'Moslima', 'My house', '00:00:05'),
-(5, 'Rubel', 'I am late today', '00:00:06');
+(5, 'Rubel', 'I am late today', '00:00:06'),
+(6, 'Sagor Mitro', 'Hello', '12:05:33'),
+(7, 'Mohammad Shafiqul Islam', 'Hello', '12:05:40'),
+(8, 'MUHA ABDUR RAHAMAN TAMIM', 'Hello', '12:05:56');
 
 --
 -- Indexes for dumped tables
@@ -63,7 +66,7 @@ ALTER TABLE `tbl_box`
 -- AUTO_INCREMENT for table `tbl_box`
 --
 ALTER TABLE `tbl_box`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
