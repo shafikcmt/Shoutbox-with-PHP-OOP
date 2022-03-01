@@ -1,3 +1,7 @@
+<?php
+include_once "lib/Shout.php";
+$shout = new Shout();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
